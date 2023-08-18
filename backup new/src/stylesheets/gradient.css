@@ -1,0 +1,54 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(236, 8, 95, 0.9), rgba(37, 117, 252, 0.9));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(236, 8, 95, 0.9), rgba(37, 117, 252, 0.9));
+  }
+  .custom {
+    border-color: #ff0751;
+    color: #ff0751;
+  }
+  .custom-fill {
+    background-color: #ff0751;
+    color: #ffffff;
+  }
+  .custom-fill:hover {
+    border-color: #ff0751;
+    color: #ff0751;
+  }
+  .custom:hover {
+    background-color: #ff0751;
+    color: white;
+  }
+
+  .custom-bg {
+    /* fallback for old browsers */
+    background: #ffffff;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(219, 185, 198, 0.9), rgba(181, 196, 223, 0.9));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(219, 185, 198, 0.9), rgba(181, 196, 223, 0.9));
+  }
+
+.brd{
+    border-top:  white;
+    border-bottom: solid white;
+}
+
+.text-center{
+  padding-top: 2.1%;
+}
+
+.col-8{
+  padding-left: 2%;
+}
+
+.head{
+  padding-left: 45%;
+}
